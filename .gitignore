@@ -50,3 +50,78 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+/FinalProjectFt/Library/
+/FinalProjectFt/Logs/
+/FinalProjectFt/Packages/
+/FinalProjectFt/ProjectSettings/
+
+/FinalProjectFt/Assembly-CSharp-Editor-firstpass.csproj
+/FinalProjectFt/Assembly-CSharp-Editor.csproj
+/FinalProjectFt/Assembly-CSharp-firstpass.csproj
+/FinalProjectFt/Assembly-CSharp.csproj
+/FinalProjectFt/FinalProjectFt.sln
+/FinalProjectFt/.gitattributes
+
+
+
+/FinalProjectFt/Assets/Sci-Fi_Platforms  - 3D_Models/
+/FinalProjectFt/Assets/All Packages Demo/
+/FinalProjectFt/Assets/Cyborg/
+/FinalProjectFt/Assets/Dark Future/
+/FinalProjectFt/Assets/Future City Free/
+/FinalProjectFt/Assets/Mixamo/
+/FinalProjectFt/Assets/Particlecollection_Free samples/
+/FinalProjectFt/Assets/RainEntertainment/
+/FinalProjectFt/Assets/SampleScenes/
+/FinalProjectFt/Assets/Sci-fi/
+/FinalProjectFt/Assets/Sci-Fi_Platforms  - 3D_Models/
+/FinalProjectFt/Assets/WIP/
+
+/FinalProjectFt/Assets/All Packages Demo.meta
+/FinalProjectFt/Assets/CharacterPer.meta
+/FinalProjectFt/Assets/Cyborg.meta
+/FinalProjectFt/Assets/Dark Future.meta
+/FinalProjectFt/Assets/Future City Free.meta
+/FinalProjectFt/Assets/Materials.meta
+/FinalProjectFt/Assets/Mixamo.meta
+/FinalProjectFt/Assets/Particlecollection_Free samples.meta
+/FinalProjectFt/Assets/RainEntertainment.meta
+/FinalProjectFt/Assets/SampleScenes.meta
+/FinalProjectFt/Assets/Scenes.meta
+/FinalProjectFt/Assets/Sci-Fi_Platforms  - 3D_Models.meta
+/FinalProjectFt/Assets/Sci-fi.meta
+/FinalProjectFt/Assets/Scripts.meta
+/FinalProjectFt/Assets/Standard Assets.meta
+/FinalProjectFt/Assets/WIP.meta
+
+
+
+
+
+/FinalProjectFt/Assets/Standard Assets/2D/
+/FinalProjectFt/Assets/Standard Assets/Cameras
+/FinalProjectFt/Assets/Standard Assets/CrossPlatformInput/
+/FinalProjectFt/Assets/Standard Assets/Editor/
+/FinalProjectFt/Assets/Standard Assets/Effects/
+/FinalProjectFt/Assets/Standard Assets/Environment/
+/FinalProjectFt/Assets/Standard Assets/Fonts/
+/FinalProjectFt/Assets/Standard Assets/ParticleSystems/
+/FinalProjectFt/Assets/Standard Assets/PhysicsMaterials/
+/FinalProjectFt/Assets/Standard Assets/Prototyping/
+/FinalProjectFt/Assets/Standard Assets/Utility/
+/FinalProjectFt/Assets/Standard Assets/Vehicles/
+
+/FinalProjectFt/Assets/Standard Assets/2D.meta
+/FinalProjectFt/Assets/Standard Assets/Cameras.meta
+/FinalProjectFt/Assets/Standard Assets/Characters.meta
+/FinalProjectFt/Assets/Standard Assets/CrossPlatformInput.meta
+/FinalProjectFt/Assets/Standard Assets/Editor.meta
+/FinalProjectFt/Assets/Standard Assets/Effects.meta
+/FinalProjectFt/Assets/Standard Assets/Environment.meta
+/FinalProjectFt/Assets/Standard Assets/Fonts.meta
+/FinalProjectFt/Assets/Standard Assets/ParticleSystems.meta
+/FinalProjectFt/Assets/Standard Assets/PhysicsMaterials.meta
+/FinalProjectFt/Assets/Standard Assets/Prototyping.meta
+/FinalProjectFt/Assets/Standard Assets/Utility.meta
+/FinalProjectFt/Assets/Standard Assets/Vehicles.meta

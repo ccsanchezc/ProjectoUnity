@@ -10,11 +10,16 @@ public class ControllerDreyar : MonoBehaviour {
     public GameObject poder;//Poder
     private AudioSource Audio; // AudioObjeto
      public AudioClip DisparoClip; // DisparoClip
+     GameObject buttonSave;
+     GameObject buttonLoad;
     // Start is called before the first frame update
     void Start () {
         Audio =  GetComponent<AudioSource>();
         poderPiso.Stop();
         die.text = "";
+        buttonSave = GameObject.Find("ButtonSave");
+        buttonLoad = GameObject.Find("ButtonLoad");
+        // buttonSave = GameObject.Find("Canvas").transform.getChild(0).gameObject.SetActive(false);
         anim = GetComponent<Animator> ();
     }
     // Update is called once per frame
@@ -54,6 +59,8 @@ public class ControllerDreyar : MonoBehaviour {
     }
 
     public IEnumerator reStartlevel () {
+        // buttonSave.SetActive(false);
+        // buttonLoad.SetActive(false);
         Debug.Log ("El jugador cayó al vació");
         die.text = "Has muerto";
         yield return new WaitForSecondsRealtime (10.0f);

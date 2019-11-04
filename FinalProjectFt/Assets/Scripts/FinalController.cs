@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class FinalController : MonoBehaviour
@@ -17,8 +18,14 @@ public class FinalController : MonoBehaviour
     }
     void OnCollisionEnter(Collision col){
         if(col.gameObject.tag == "Jugador"){
-
+            StartCoroutine("changeScene");
             Debug.Log("Gano");
         }
+    }
+
+    IEnumerator changeScene(){
+        Debug.Log("Recolectables is empty");
+        yield return new WaitForSecondsRealtime(3.0f);
+        SceneManager.LoadScene(1);
     }
 }

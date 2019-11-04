@@ -39,7 +39,7 @@ public class ControllerDreyar : MonoBehaviour {
     public IEnumerator LanzaPoderCoRoutine(){
         anim.SetBool("LanzarMagia",true);
         yield return new WaitForSeconds(0.1f);
-        Audio.clip = DisparoClip;;
+        Audio.clip = DisparoClip;
         Audio.Play();
         poder.transform.position = transform.position;
         poderPiso.Play();
@@ -56,7 +56,7 @@ public class ControllerDreyar : MonoBehaviour {
         if (other.gameObject.CompareTag ("DiePlane")) {
             StartCoroutine ("reStartlevel");
         }
-    }
+    } 
 
     public IEnumerator reStartlevel () {
         // buttonSave.SetActive(false);

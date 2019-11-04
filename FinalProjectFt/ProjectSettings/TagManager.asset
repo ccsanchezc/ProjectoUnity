@@ -7,6 +7,9 @@ TagManager:
   - Fire
   - EndLevel
   - DiePlane
+  - ButtonSave
+  - ButtonLoad
+  - Jugador
   layers:
   - Default
   - TransparentFX

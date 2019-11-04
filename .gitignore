@@ -54,7 +54,7 @@ dkms.conf
 /FinalProjectFt/Library/
 /FinalProjectFt/Logs/
 /FinalProjectFt/Packages/
-/FinalProjectFt/ProjectSettings/
+
 
 /FinalProjectFt/Assembly-CSharp-Editor-firstpass.csproj
 /FinalProjectFt/Assembly-CSharp-Editor.csproj

@@ -8,6 +8,7 @@ public class VidaControll : MonoBehaviour
 {
     public int vida;
      public Text vidatext;
+     public Text die;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +18,21 @@ public class VidaControll : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+     
+    }
+    void OnTriggerEnter (Collider other) {
+        if (other.gameObject.CompareTag ("Cyborg")) {
+            vida = vida - 1 ;
+            vidatext.text = "Vida : " +  vida  ;
+            
+        }
+         StartCoroutine ("reStartlevel");
+    } 
+    public IEnumerator reStartlevel () {
+        if(vida == 0){
+        die.text = "Has muerto";
+        yield return new WaitForSecondsRealtime (4.0f);
+        Application.LoadLevel (Application.loadedLevelName);
+        }
     }
 }

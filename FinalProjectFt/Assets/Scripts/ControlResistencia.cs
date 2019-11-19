@@ -26,10 +26,10 @@ public class ControlResistencia : MonoBehaviour {
 
     void OnParticleCollision(GameObject other){
         resistencia--;
-         Audio.Play();
+        
         Debug.Log("Colionó "+resistencia);
         if (resistencia <= 0) {
-            
+          Audio.Play();
             Destroy (transform.gameObject);
         }
     }

@@ -22,7 +22,7 @@ public class VidaControll : MonoBehaviour
     }
     void OnTriggerEnter (Collider other) {
         if (other.gameObject.CompareTag ("Cyborg")) {
-            vida = vida - 1 ;
+            vida = vida - 5 ;
             vidatext.text = "Vida : " +  vida  ;
             
         }
@@ -31,7 +31,7 @@ public class VidaControll : MonoBehaviour
     public IEnumerator reStartlevel () {
         if(vida == 0){
         die.text = "Has muerto";
-        yield return new WaitForSecondsRealtime (4.0f);
+        yield return new WaitForSecondsRealtime (1.0f);
         Application.LoadLevel (Application.loadedLevelName);
         }
     }
